@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Queue</title>
+    <link rel="stylesheet" href="/script/index.css"></link>
+    <link rel="stylesheet" href="/script/queue.css"></link>
+
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="/template/index.html">Home</a></li>
+            <li><a href="/template/stack.html">Stack</a></li>
+            <li><a href="/template/queue.html">Queue</a></li>
+        </ul>
+    </nav>
+    <main>
+        <div class="details">
+        <h2>Queue</h2>
+        <p>This is a simple implementation of the Queue data structure.</p>
+        <p>operations of Queue data structure are as follows:</p>
+        <ol>
+            <li>Enqueue: Adds an element to the end of the queue.</li>
+            <li>Dequeue: Removes and returns the first (oldest) item from the queue.</li>
+        </ol>
+        <form action="" method="post">
+            <label for="item">Item: </label>
+            <input type="text" id="item" name="item"><br/>
+            <button id="enqueue" type="submit">Add Item or Enqueue</button>
+            <button id="dequeue">Dequeue</button> 
+        </form>
+        <div id="display">
+            <h3>Queue Items:</h3>
+            <ul id="items"></ul>
+        </div>
+    </div>
+    </main>
+    <script src="/javascript/queue.js"></script>
+</body>
+</html>

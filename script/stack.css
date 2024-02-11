@@ -1,0 +1,103 @@
+/* Style for the main container */
+main {
+    margin: 10px;
+    background-color: rgb(243, 237, 237);
+}
+
+/* Style for the details container */
+.detail {
+    border: 1px solid #ccc;
+    height: 90vmin;
+    width: 90%;
+    margin: 0 auto;
+    margin: 20px;
+
+}
+
+/* Style for the Queue title */
+.detail h2 {
+    color: #333;
+    align-items: center;
+    justify-content: center;
+    margin: 30px;
+}
+
+
+.detail p {
+    color: #333;
+    align-items: center;
+    justify-content: center;
+    margin: 30px;
+}
+/* Style for the list of operations */
+ol {
+    padding: 20px;
+    display: flex;
+    margin-top: 1px;
+    margin-left: 40px;
+    flex-direction: column;
+}
+
+/* Style for the form inputs and buttons */
+label {
+    display: block;
+    margin-bottom: 5px;
+    margin-left: 50%;
+}
+
+input[type="text"] {
+    width: 60%; 
+    height:  30px;
+    border-radius: 2px;
+    border: #333 solid;
+    padding: 5px;
+    margin: 10px auto; /* Center horizontally */
+    display: block;
+
+}
+
+
+
+button {
+    padding: 12px 12px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 2%;
+    align-items: center;
+    justify-content: center;
+    display: inline-flex;
+    margin-left: 300px;
+    margin-right: 50px; /* Add margin between buttons */
+}
+
+
+button:hover {
+    background-color: #0056b3;
+}
+
+button[type="submit"] {
+    margin-right: 10px;
+}
+
+#displayi {
+    border: 1px solid #ccc; /* Add border */
+    padding: 10px; /* Add padding */
+    margin: 20px;
+}
+
+#displayi h3 {
+    font-size: 1.2em; /* Adjust font size */
+}
+
+#displayi ul {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Remove default padding */
+}
+
+#displayi ul li {
+    margin-bottom: 5px; /* Adjust margin between items */
+}

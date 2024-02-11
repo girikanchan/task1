@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #333;
+    padding: 15px;
+    font-size: 18px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin-top:  0.5%;
+    padding: 2px;
+    display: flex;
+    margin-bottom:  0.5%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+nav li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: rgb(205, 191, 191);
+}
+main{
+    margin: 0% 6% 4% 6%;
+    padding: 0%;
+}
+
+.intro {
+    border: 1px solid #333; /* Border style */
+    border-radius: 20px; /* Rounded corners */
+    padding: 10px; /* Padding inside the box */
+    margin: 10px auto; /* Center the box horizontally with margin */
+    max-width: 600px; /* Maximum width of the box */
+    background-color: #f9f9f9; /* Background color */
+  }
+  
+  .intro h1 {
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .intro h2 {
+    font-size: 20px;
+    color: #666;
+  }
+  
+  .intro p {
+    font-size: 16px;
+    color: #999;
+  }
+  
+.container {
+    text-align: center;
+  }
+  
+  .container p#f {
+    font-size: 24px;
+    font-family: cursive;
+    color: black; /* You can adjust the color as needed */
+  }
+  
+  .container a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .container a:hover {
+    background-color: darkblue;
+  }
